@@ -1,0 +1,8 @@
+{
+  "name": "93c6216e-96e9-45a2-b56b-8fad5f7b2226",
+  "fromTable": "Sales Data",
+  "fromColumn": "Pizza Sold",
+  "toTable": "Sales Target",
+  "toColumn": "Pizza",
+  "crossFilteringBehavior": "bothDirections"
+}

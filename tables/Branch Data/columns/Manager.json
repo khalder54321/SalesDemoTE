@@ -1,0 +1,13 @@
+{
+  "name": "Manager",
+  "dataType": "string",
+  "sourceColumn": "Manager",
+  "lineageTag": "b2b080e5-741d-4520-9ab0-365a87c7b51c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

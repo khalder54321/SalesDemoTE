@@ -1,0 +1,14 @@
+{
+  "name": "S/N",
+  "dataType": "int64",
+  "sourceColumn": "S/N",
+  "formatString": "0",
+  "lineageTag": "a2a950ab-1ea8-4fac-819e-b68264afe83e",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

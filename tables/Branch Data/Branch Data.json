@@ -1,0 +1,14 @@
+{
+  "name": "Branch Data",
+  "lineageTag": "94e78334-f062-4da9-8659-13c13c624384",
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

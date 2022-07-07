@@ -1,0 +1,8 @@
+{
+  "name": "b0ed40b4-02e0-4136-96ad-d3ee7009b54b",
+  "fromTable": "Sales Data",
+  "fromColumn": "Date",
+  "toTable": "Daily Target",
+  "toColumn": "Day",
+  "crossFilteringBehavior": "bothDirections"
+}

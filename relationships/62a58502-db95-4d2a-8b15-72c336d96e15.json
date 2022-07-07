@@ -1,0 +1,8 @@
+{
+  "name": "62a58502-db95-4d2a-8b15-72c336d96e15",
+  "fromTable": "Daily Target",
+  "fromColumn": "Day",
+  "toTable": "LocalDateTable_659839bd-cca7-41e4-815f-ccbb0f323bc7",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

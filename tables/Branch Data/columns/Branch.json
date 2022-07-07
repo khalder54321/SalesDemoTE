@@ -1,0 +1,13 @@
+{
+  "name": "Branch",
+  "dataType": "string",
+  "sourceColumn": "Branch",
+  "lineageTag": "383bbd03-cf38-414c-87f2-87a6c51cf1ca",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

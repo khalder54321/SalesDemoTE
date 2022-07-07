@@ -1,0 +1,10 @@
+{
+  "name": "Sales Target",
+  "lineageTag": "f1e3f247-3427-44ff-9e27-2f9d5b913edf",
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

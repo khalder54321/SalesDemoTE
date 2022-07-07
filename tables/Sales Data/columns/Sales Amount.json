@@ -1,0 +1,20 @@
+{
+  "type": "calculated",
+  "name": "Sales Amount",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "'Sales Data'[Price]*'Sales Data'[Quantity]",
+  "formatString": "\"₦\"\\ #,0;-\"₦\"#,0;\"₦\"\\ #,0",
+  "lineageTag": "30629604-4655-43d5-92d0-4f1270ea0ffd",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"bin-NG\"}"
+    }
+  ]
+}

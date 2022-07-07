@@ -1,0 +1,16 @@
+{
+  "name": "Daily Target-8e45e8f2-d1b1-4a2d-8676-d7ae26687e7d",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\Michael\\Desktop\\Power BI\\Daily-Sales-Target.xlsx\"), null, true),",
+      "    #\"Daily Target_Sheet\" = Source{[Item=\"Daily Target\",Kind=\"Sheet\"]}[Data],",
+      "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Daily Target_Sheet\", [PromoteAllScalars=true]),",
+      "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Day\", type date}, {\"Target\", type number}})",
+      "in",
+      "    #\"Changed Type\""
+    ]
+  }
+}

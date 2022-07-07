@@ -1,0 +1,8 @@
+{
+  "name": "ed1be1e0-aaa2-4b37-8814-7072a1594e4e",
+  "fromTable": "Sales Data",
+  "fromColumn": "Branch",
+  "toTable": "Branch Data",
+  "toColumn": "Branch",
+  "crossFilteringBehavior": "bothDirections"
+}

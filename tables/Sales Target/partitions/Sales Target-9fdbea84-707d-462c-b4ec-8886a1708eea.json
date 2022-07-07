@@ -1,0 +1,16 @@
+{
+  "name": "Sales Target-9fdbea84-707d-462c-b4ec-8886a1708eea",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\Michael\\Desktop\\Power BI\\Sales-Target.xlsx\"), null, true),",
+      "    #\"Sales Target_Sheet\" = Source{[Item=\"Sales Target\",Kind=\"Sheet\"]}[Data],",
+      "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Sales Target_Sheet\", [PromoteAllScalars=true]),",
+      "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Pizza\", type text}, {\"Sales Target\", type number}})",
+      "in",
+      "    #\"Changed Type\""
+    ]
+  }
+}

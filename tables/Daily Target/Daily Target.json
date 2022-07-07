@@ -1,0 +1,10 @@
+{
+  "name": "Daily Target",
+  "lineageTag": "c2b1c3d3-d981-4437-bdf6-a3ec7ef11d0e",
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

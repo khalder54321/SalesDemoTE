@@ -1,0 +1,10 @@
+{
+  "name": "Users",
+  "lineageTag": "86e0e1a9-bdf2-4f90-9063-1a3efedd1887",
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

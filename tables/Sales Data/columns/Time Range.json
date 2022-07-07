@@ -1,0 +1,13 @@
+{
+  "name": "Time Range",
+  "dataType": "string",
+  "sourceColumn": "Time Range",
+  "lineageTag": "67426570-aeb6-4f1b-8d84-c2157f45fced",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

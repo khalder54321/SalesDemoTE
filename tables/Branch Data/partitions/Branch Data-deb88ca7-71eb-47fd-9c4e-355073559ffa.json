@@ -1,0 +1,16 @@
+{
+  "name": "Branch Data-deb88ca7-71eb-47fd-9c4e-355073559ffa",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\Michael\\Desktop\\Power BI\\Branch-Data.xlsx\"), null, true),",
+      "    #\"Branch Data_Sheet\" = Source{[Item=\"Branch Data\",Kind=\"Sheet\"]}[Data],",
+      "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Branch Data_Sheet\", [PromoteAllScalars=true]),",
+      "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Branch\", type text}, {\"Longitude\", type number}, {\"Lattitude\", type number}, {\"Manager\", type text}})",
+      "in",
+      "    #\"Changed Type\""
+    ]
+  }
+}

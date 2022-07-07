@@ -1,0 +1,17 @@
+{
+  "name": "Longitude",
+  "dataType": "double",
+  "sourceColumn": "Longitude",
+  "lineageTag": "2d28ad38-ff16-472f-94fc-b4e758687cba",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

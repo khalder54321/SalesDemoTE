@@ -1,0 +1,13 @@
+{
+  "name": "Pizza Sold",
+  "dataType": "string",
+  "sourceColumn": "Pizza Sold",
+  "lineageTag": "a7a4da38-4243-496b-a556-0a28571847f3",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

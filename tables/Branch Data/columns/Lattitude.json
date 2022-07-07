@@ -1,0 +1,17 @@
+{
+  "name": "Lattitude",
+  "dataType": "double",
+  "sourceColumn": "Lattitude",
+  "lineageTag": "681f7d6c-54de-418b-8633-8b0b18a98691",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}
